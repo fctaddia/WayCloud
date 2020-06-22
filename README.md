@@ -42,3 +42,9 @@ DNS is present in WayCloud. To make WayCloud accessible, in a simple way, outsid
 
 ### Client-Server model
 There is a server in the project. The server runs on a virtual machine, with TLinux (OS Linux owner) installed. The PHP default server is running on this virtual machine. It allows you to always be listening, in a given directory, for php page requests from clients. Through the use of DNS and Sockets it was possible to put the site on the net. DNS, as previously mentioned, allowed access to the site in a simple way. Sockets are used to establish communication between Client and Server. Remember that a socket is made up of an IP address and a port number. The WayCloud service runs on port 6005 so you need to specify it in the URL, unless all requests on port 80 are routed to port 6005 from the router.
+
+### CONTRIBUTING
+There are many ways to [contribute](./docs/CONTRIBUTING.md), you can
+- submit bugs,
+- help track issues,
+- review code changes.
