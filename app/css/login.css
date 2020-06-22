@@ -1,0 +1,303 @@
+@font-face {
+    font-family: "bfconnect";
+    src:url("../font/bfconnect.ttf");
+}
+
+body {
+    background-color:#ecebeb;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+	font-family: bfconnect;
+	text-align:center;
+	overflow: hidden;
+}
+
+.mdc-top-app-bar {
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px -4px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 3px 3px 0px rgba(0, 0, 0, 0.12);
+    color: black;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 4;
+}
+
+.card {
+    position: relative;
+	display: none;
+	box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
+	width: 350px;
+	height: 300px;
+	border-radius: 25px;
+	background-color:rgba(255, 255, 255, 1);
+	margin: 0;
+  	top: 45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	overflow: hidden;
+}
+
+.container {
+	position: relative;
+	font-family: Roboto
+	margin: 0;  	
+  	overflow: hidden;
+}
+
+.register {}
+
+.form-signin {
+	position: relative;
+	overflow: hidden;
+    max-width: 330px;
+    padding: 15px;   
+    margin: 0 auto;
+    color: #2391e0;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	position: relative;
+	margin-bottom: 10px; 
+    overflow: hidden;
+}
+
+.form-signin .checkbox {
+	position: relative;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.form-signin .form-control:focus {
+	position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 9px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	background-color: #039c98;
+    color: #FFF;
+	font-size:18px;
+    transition: background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #03bcb7;
+}
+
+.btn > * {
+    position: relative;
+}
+
+.btn span {
+    display: block;
+    padding: 10px 30px;
+    font-family:bfconnect;
+}
+
+.btn:before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    width: 0;
+    padding-top: 0;
+
+    border-radius: 100%;
+
+    background-color: rgba(236, 240, 241, .3);
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+
+    transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+.group {
+	position: relative; 
+	display: block;
+}
+
+.mdc-top-app-bar .mdc-top-app-bar__action-item {
+    color: black;
+    color: #000;
+}
+
+.mdc-top-app-bar .mdc-top-app-bar__navigation-icon {
+    color:var(--mdc-theme-on-primary, #000);
+}
+
+input {
+	position: relative;
+	overflow: hidden;
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	width:300px;
+	border: none;
+	border-bottom: 1px solid #038581;
+	background-color:rgba(212, 212, 212, 0.5);
+	border-radius: 9px;
+}
+
+input:focus { outline:none; }
+
+label {
+	position: relative;
+	overflow: hidden;
+	color:#434d4c; 
+	font-size:18px;
+	font-weight:normal;
+	position:absolute;
+	pointer-events:none;
+	left:20px;
+	top:10px;
+	text-align: center;
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+}
+
+input:focus ~ label, input:valid ~ label {
+	top:-25px;
+	font-size:16px;
+	color:#434d4c;
+}
+
+.bar { 
+	position:relative; 
+	display:block; 
+	width:300px; 
+}
+
+.bar:before, .bar:after {
+	content:'';
+	height:1px; 
+	width:0;
+	left: 20px;
+	bottom:1px; 
+	position: absolute;
+	background:#038581; 
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+}
+
+.bar:before {
+	left:50%;
+}
+
+.bar:after {
+	right:50%; 
+}
+
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+	width:50%;
+}
+
+.highlight {
+	position: absolute;
+	height:60%; 
+	width:100px; 
+	top:25%; 
+	left:0;
+	pointer-events:none;
+	opacity:0.5;
+}
+
+input:focus ~ .highlight {
+	-webkit-animation:inputHighlighter 0.3s ease;
+	-moz-animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
+}
+
+
+@-webkit-keyframes inputHighlighter {
+	from { background:#485d87; }
+	to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#485d87; }
+	to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#485d87; }
+	to 	{ width:0; background:transparent; }
+}
+
+.spinner {  
+	width: 70px;
+	margin-top:37px;
+	margin-bottom:37px;
+	margin-left:115px;
+	opacity:0.9;
+}
+
+.spinner > div {
+	width: 18px;
+	height: 18px;
+	background-color: #039c98;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+	0%, 80%, 100% { 
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	} 40% { 
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
