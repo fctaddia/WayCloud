@@ -34,6 +34,7 @@ The encryption of user data and password is present in WayCloud. The password co
 
 ### Database
 > **Tip:** In the ER diagram, the DATA attribute in the FILE entity means the actual file (data = data contained in the file)
+
 The database is present in the directory "code / db / waycloud.sql", there is also the diagram ER and the Logical Scheme. The database consisting of two entities (user and file) that have a relationship between them (upload). The cardinality for USER is 0, N because a user can upload 0 to N files into the cloud; while the FILE entity has cardinality 1.1 because it can be loaded by only one user. Foreign is only one and it is id_USER. This is because the FILE entity is 1.1, therefore it refers to a single user. This implies the creation of the foreign key to make the relationship effective UPLOAD which was present in the ER diagram.
 
 ### DNS
