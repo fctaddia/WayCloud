@@ -12,7 +12,7 @@ All your files, always with you
 Second test project - State exam 2020 - Realized by Francesco Taddia
 
 ### Overview
-WayCloud is a platform that allows uploading files to a remote database. For each user registered space is dedicated. You can access the platform with this link (http://taddia.sytes.net:6005/login.php). WayCloud is developed with PHP, JavaScript, HTML, CSS for the front end part. For the back-end part use the default server of php. It listens for and handles requests for PHP pages from clients. Finally for the part of archiving there is a database written with MySQL.
+WayCloud is a platform that allows uploading files to a remote database. For each user registered space is dedicated. You can access the platform with this link (http://taddia.sytes.net:6005). WayCloud is developed with PHP, JavaScript, HTML, CSS for the front end part. For the back-end part use the default server of php. It listens for and handles requests for PHP pages from clients. Finally for the part of archiving there is a database written with MySQL.
 
 ### Objectives
 * **Upload Files:** allow uploading of files with different extensions and sizes;
