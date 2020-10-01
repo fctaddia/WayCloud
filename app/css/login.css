@@ -5,7 +5,7 @@
 	width: 350px;
 	height: 300px;
 	border-radius: 25px;
-	background-color:rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 1);
 	margin: 0;
   	top: 45%;
   	left: 50%;
@@ -72,7 +72,7 @@
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 	background-color: #039c98;
 	color: #FFF;
-	font-size:18px;
+	font-size: 18px;
 	transition: background-color .3s;
 }
 
@@ -87,7 +87,7 @@
 .btn span {
 	display: block;
 	padding: 10px 30px;
-	font-family:bfconnect;
+	font-family: bfconnect;
 }
 
 .btn:before {
@@ -121,12 +121,12 @@
 input {
 	position: relative;
 	overflow: hidden;
-	font-size:18px;
-	padding:10px 10px 10px 5px;
-	width:300px;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	width: 300px;
 	border: none;
 	border-bottom: 1px solid #038581;
-	background-color:rgba(212, 212, 212, 0.5);
+	background-color: rgba(212, 212, 212, 0.5);
 	border-radius: 9px;
 }
 
@@ -137,92 +137,107 @@ input:focus {
 label {
 	position: relative;
 	overflow: hidden;
-	color:#434d4c; 
-	font-size:18px;
-	font-weight:normal;
-	position:absolute;
-	pointer-events:none;
-	left:20px;
-	top:10px;
+	color: #434d4c; 
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 20px;
+	top: 10px;
 	text-align: center;
-	transition:0.2s ease all; 
-	-moz-transition:0.2s ease all; 
-	-webkit-transition:0.2s ease all;
+	transition: 0.2s ease all; 
+	-moz-transition: 0.2s ease all; 
+	-webkit-transition: 0.2s ease all;
 }
 
 input:focus ~ label, input:valid ~ label {
-	top:-25px;
-	font-size:16px;
-	color:#434d4c;
+	top: -25px;
+	font-size: 16px;
+	color: #434d4c;
 }
 
 .bar { 
-	position:relative; 
-	display:block; 
-	width:300px; 
+	position: relative; 
+	display: block; 
+	width: 300px; 
 }
 
 .bar:before, .bar:after {
-	content:'';
-	height:1px; 
-	width:0;
+	content: '';
+	height: 1px; 
+	width: 0;
 	left: 20px;
-	bottom:1px; 
+	bottom: 1px; 
 	position: absolute;
-	background:#038581; 
-	transition:0.2s ease all; 
-	-moz-transition:0.2s ease all; 
-	-webkit-transition:0.2s ease all;
+	background: #038581; 
+	transition: 0.2s ease all; 
+	-moz-transition: 0.2s ease all; 
+	-webkit-transition: 0.2s ease all;
 }
 
 .bar:before {
-	left:50%;
+	left: 50%;
 }
 
 .bar:after {
-	right:50%; 
+	right: 50%; 
 }
 
 input:focus ~ .bar:before, input:focus ~ .bar:after {
-	width:50%;
+	width: 50%;
 }
 
 .highlight {
 	position: absolute;
-	height:60%; 
-	width:100px; 
-	top:25%; 
-	left:0;
-	pointer-events:none;
-	opacity:0.5;
+	height: 60%; 
+	width: 100px; 
+	top: 25%; 
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
 }
 
 input:focus ~ .highlight {
-	-webkit-animation:inputHighlighter 0.3s ease;
-	-moz-animation:inputHighlighter 0.3s ease;
-	animation:inputHighlighter 0.3s ease;
+	-webkit-animation: inputHighlighter 0.3s ease;
+	-moz-animation: inputHighlighter 0.3s ease;
+	animation: inputHighlighter 0.3s ease;
 }
 
 
 @-webkit-keyframes inputHighlighter {
-	from { background:#485d87; }
-	to 	{ width:0; background:transparent; }
+	from { 
+		background: #485d87; 
+	}
+	to { 
+		width: 0; 
+		background: transparent; 
+	}
 }
 @-moz-keyframes inputHighlighter {
-	from { background:#485d87; }
-	to 	{ width:0; background:transparent; }
+	from { 
+		background: #485d87; 
+	}
+	to { 
+		width: 0; 
+		background: transparent; 
+	}
 }
 @keyframes inputHighlighter {
-	from { background:#485d87; }
-	to 	{ width:0; background:transparent; }
+	from { 
+		background: #485d87; 
+	}
+	to 	{ 
+		width: 0; 
+		background: transparent; 
+	}
 }
 
 .spinner {  
 	width: 70px;
-	margin-top:37px;
-	margin-bottom:37px;
-	margin-left:115px;
-	opacity:0.9;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	margin-left: 115px;
+	opacity: 0.9;
 }
 
 .spinner > div {
@@ -246,8 +261,11 @@ input:focus ~ .highlight {
 }
 
 @-webkit-keyframes sk-bouncedelay {
-	0%, 80%, 100% { -webkit-transform: scale(0) }
-	40% { -webkit-transform: scale(1.0) }
+	0%, 80%, 100% {
+		-webkit-transform: scale(0) }
+	40% {
+		-webkit-transform: scale(1.0) 
+	}
 }
 
 @keyframes sk-bouncedelay {
