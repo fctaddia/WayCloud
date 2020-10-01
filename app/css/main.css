@@ -2,7 +2,7 @@
 
 .drawer {
 	display: block;
-    position: fixed;
+	position: fixed;
 	height: 94.3%;
 	width: 14%;
 	top:56px;
@@ -39,7 +39,7 @@
 }
 
 .card {
-    position: absolute;
+	position: absolute;
 	display: none;
 	box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.2);
 	width: 20%;
@@ -189,77 +189,81 @@
 }
 
 .btn {
-    position: absolute;
-    display: block;
-    padding: 0;
-    border-width: 0;
-    outline: none;
-    border-radius: 9px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    background-color: #039c98;
-    color: #FFF;
+	position: absolute;
+	display: block;
+	padding: 0;
+	border-width: 0;
+	outline: none;
+	border-radius: 9px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	background-color: #039c98;
+	color: #FFF;
 	font-size:110%;
-    transition: background-color .3s;
+	transition: background-color .3s;
 }
 
 .btn:hover, .btn:focus {
-    background-color: #03bcb7;
+	background-color: #03bcb7;
 }
 
 .btn > * {
-    position: relative;
+	position: relative;
 }
 
 .btn span {
-    display: block;
-    padding: 10px 30px;
-    font-family:bfconnect;
+	display: block;
+	padding: 10px 30px;
+	font-family:bfconnect;
 }
 
 .btn:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: block;
-    width: 0;
-    padding-top: 0;
-    border-radius: 24%;
-    background-color: rgba(236, 240, 241, .3);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	width: 0;
+	padding-top: 0;
+	border-radius: 24%;
+	background-color: rgba(236, 240, 241, .3);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .btn:active:before {
-    width: 100%;
-    padding-top: 30%;
-    transition: width .2s ease-out, padding-top .2s ease-out;
+	width: 100%;
+	padding-top: 30%;
+	transition: width .2s ease-out, padding-top .2s ease-out;
 }
 
 #customers {
-  font-family: bfconnect;
-  border-collapse: collapse;
-  width: 100%;
-  text-align:center;
+	font-family: bfconnect;
+	border-collapse: collapse;
+	width: 100%;
+	text-align:center;
 }
 
 #customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
+	border: 1px solid #ddd;
+	padding: 8px;
 }
 
-#customers tr {background-color: rgba(252, 252, 252, 0.9);}
+#customers tr {
+	background-color: rgba(252, 252, 252, 0.9);
+}
 
-#customers tr:hover {background-color: rgba(240, 240, 240, 0.9);}
+#customers tr:hover {
+	background-color: rgba(240, 240, 240, 0.9);
+}
 
 #customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #039c98;
-  color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #039c98;
+	color: white;
 }
 
 .upload-btn-wrapper {
@@ -305,28 +309,28 @@
 
 
 .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+	visibility: visible;
 }
 
