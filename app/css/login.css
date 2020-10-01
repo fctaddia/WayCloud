@@ -1,5 +1,5 @@
 .card {
-    position: relative;
+	position: relative;
 	display: none;
 	box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
 	width: 350px;
@@ -25,94 +25,92 @@
 .form-signin {
 	position: relative;
 	overflow: hidden;
-    max-width: 330px;
-    padding: 15px;   
-    margin: 0 auto;
-    color: #2391e0;
+	max-width: 330px;
+	padding: 15px;   
+	margin: 0 auto;
+	color: #2391e0;
 }
 
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
+.form-signin .form-signin-heading, .form-signin .checkbox {
 	position: relative;
 	margin-bottom: 10px; 
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .form-signin .checkbox {
 	position: relative;
-    font-weight: normal;
-    overflow: hidden;
+	font-weight: normal;
+	overflow: hidden;
 }
 
 .form-signin .form-control {
-    position: relative;
-    height: auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 10px;
-    font-size: 16px;
-    overflow: hidden;
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+	overflow: hidden;
 }
 
 .form-signin .form-control:focus {
 	position: relative;
-    z-index: 2;
-    overflow: hidden;
+	z-index: 2;
+	overflow: hidden;
 }
 
 .btn {
-    position: relative;
-    display: block;
-    margin: 30px auto;
-    padding: 0;
-    overflow: hidden;
-    border-width: 0;
-    outline: none;
-    border-radius: 9px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+	position: relative;
+	display: block;
+	margin: 30px auto;
+	padding: 0;
+	overflow: hidden;
+	border-width: 0;
+	outline: none;
+	border-radius: 9px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 	background-color: #039c98;
-    color: #FFF;
+	color: #FFF;
 	font-size:18px;
-    transition: background-color .3s;
+	transition: background-color .3s;
 }
 
 .btn:hover, .btn:focus {
-    background-color: #03bcb7;
+	background-color: #03bcb7;
 }
 
 .btn > * {
-    position: relative;
+	position: relative;
 }
 
 .btn span {
-    display: block;
-    padding: 10px 30px;
-    font-family:bfconnect;
+	display: block;
+	padding: 10px 30px;
+	font-family:bfconnect;
 }
 
 .btn:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: block;
-    width: 0;
-    padding-top: 0;
-    border-radius: 100%;
-    background-color: rgba(236, 240, 241, .3);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	width: 0;
+	padding-top: 0;
+	border-radius: 100%;
+	background-color: rgba(236, 240, 241, .3);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .btn:active:before {
-    width: 120%;
-    padding-top: 120%;
-
-    transition: width .2s ease-out, padding-top .2s ease-out;
+	width: 120%;
+	padding-top: 120%;
+	transition: width .2s ease-out, padding-top .2s ease-out;
 }
 
 .group {
@@ -132,7 +130,9 @@ input {
 	border-radius: 9px;
 }
 
-input:focus { outline:none; }
+input:focus { 
+	outline:none; 
+}
 
 label {
 	position: relative;
