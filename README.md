@@ -7,12 +7,11 @@ All your files, always with you
 [![MySQL](https://img.shields.io/badge/MySQL-5.7.30-%23738cff)](https://www.mysql.com/it/)
 [![GitHub (pre-)release](https://img.shields.io/github/v/release/fctaddia/WayCloud?color=%234570b5&label=Release)](./../../releases)
 [![License](https://img.shields.io/github/license/fctaddia/NfcTools?color=039c98&label=License)](https://opensource.org/licenses/MIT)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3363acf0df0c46e8a803d087c1f5a872)](https://www.codacy.com/manual/fctaddia/WayCloud?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fctaddia/WayCloud&amp;utm_campaign=Badge_Grade)
 
 Second test project - State exam 2020 - Realized by Francesco Taddia
 
 ### Overview
-WayCloud is a platform that allows uploading files to a remote database. For each user registered space is dedicated. You can access the platform with this link (http://taddia.sytes.net:6005). WayCloud is developed with PHP, JavaScript, HTML, CSS for the front end part. For the back-end part use the default server of php. It listens for and handles requests for PHP pages from clients. Finally for the part of archiving there is a database written with MySQL.
+WayCloud is a platform that allows uploading files to a remote database. For each user registered space is dedicated. You can access the platform with this link (<http://taddia.sytes.net:6005>). WayCloud is developed with PHP, JavaScript, HTML, CSS for the front end part. For the back-end part use the default server of php. It listens for and handles requests for PHP pages from clients. Finally for the part of archiving there is a database written with MySQL.
 
 ### Objectives
 * **Upload Files:** allow uploading of files with different extensions and sizes;
